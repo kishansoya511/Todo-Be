@@ -36,7 +36,7 @@ app.use('/api/notifications', notificationRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Todo App API' });
+  res.json({ message: 'Welcome to ToDo App API' });
 });
 
 // Socket.io connection handling
